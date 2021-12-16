@@ -11,7 +11,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 <name>Maven Quick Start Archetype</name>
 <url>http://maven.apache.org</url>
  
-
 <dependencies>
 <dependency>
 <groupId>junit</groupId>
@@ -20,4 +19,18 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 <scope>test</scope>
 </dependency>
 </dependencies>
+   <build>
+	<plugins>
+		
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-war-plugin</artifactId>
+			<version>2.6</version>
+			<configuration>
+				<failOnMissingWebXml>false</failOnMissingWebXml>
+			</configuration>
+		</plugin>
+		
+	</plugins>
+  </build>	
 </project>
