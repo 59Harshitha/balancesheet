@@ -7,12 +7,6 @@
     <groupId>com.github.59Harshitha.balancesheet</groupId>
     <artifactId>MyApp</artifactId>
     <version>1.0-SNAPSHOT</version>
-          
-        
-                       
-                                <groupId>com.github.jsimone</groupId>
-                                <artifactId>webapp-runner</artifactId>
-                                <version>9.0.13.0</version>
                              
                            
          
